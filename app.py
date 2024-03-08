@@ -21,7 +21,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("../saved_models/1/")
+MODEL = tf.keras.models.load_model("./saved_models/1/")
 #MODEL = tf.keras.models.model_from_json()
 
 CLASS_NAMES = ["Tomato_Bacterial_spot",
